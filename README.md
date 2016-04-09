@@ -22,13 +22,13 @@ Python 家族成员繁多，解决五花八门的业务需求。这里将通过 
 
 #### 编写 Dockerfile
 
-* 选择 Python 2.7 版本为我们依赖的系统镜像。
+* 选择 Python 3.5 版本为我们依赖的系统镜像。
 
 ```dockerfile
-FROM python:2.7
+FROM python:3.5
 ```
 
-> 因所有官方镜像均位于境外服务器，为了确保所有示例能正常运行，可以使用与官方镜像保持同步的 DaoCloud 境内镜像：`FROM daocloud.io/python:2.7`。   
+> 因所有官方镜像均位于境外服务器，为了确保所有示例能正常运行，可以使用与官方镜像保持同步的 DaoCloud 境内镜像：`FROM daocloud.io/python:3.5`。   
 > 
 > 也推荐通过 **[DaoCloud Toolbox](http://blog.daocloud.io/toolbox)** 极速下载官方镜像！
 
